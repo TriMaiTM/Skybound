@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Platform_Section3
+    uniqueID: 100340483
+    locked: 0
+  - name: Background_Section3
+    uniqueID: 2849549429
+    locked: 0
+  - name: Wind
+    uniqueID: 26449225
+    locked: 0
   - name: Decoration
     uniqueID: 3514872693
     locked: 0
