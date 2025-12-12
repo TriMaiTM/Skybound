@@ -4,12 +4,12 @@ using UnityEngine;
 public class WindController : MonoBehaviour
 {
     [Header("Cấu hình Thời gian")]
-    public float thoiGianThoi = 5f;   // Gió thổi trong bao lâu
-    public float thoiGianNghi = 2f;   // Nghỉ bao lâu trước khi đổi chiều
+    public float thoiGianThoi = 5f;   
+    public float thoiGianNghi = 2f;  
 
     [Header("Cấu hình Vật lý & Hình ảnh")]
-    public AreaEffector2D vungGioPhysics; // Kéo object Wind_Physics vào đây
-    public ParticleSystem vungGioVisual;  // Kéo object Wind_Section2 vào đây
+    public AreaEffector2D vungGioPhysics; // 
+    public ParticleSystem vungGioVisual;  // 
 
     [Header("Vị trí Mốc")]
     public Transform posLeft;  // Kéo Pos_Left vào đây
@@ -17,7 +17,7 @@ public class WindController : MonoBehaviour
 
     private void Start()
     {
-        // Bắt đầu vòng lặp gió ngay khi game chạy
+        
         StartCoroutine(ChuKyGio());
     }
 
@@ -25,7 +25,7 @@ public class WindController : MonoBehaviour
     {
         while (true) // Lặp vô tận
         {
-            // === PHA 1: THỔI TỪ TRÁI SANG PHẢI ===
+            
             Debug.Log("Gió thổi: Trái -> Phải");
 
             // 1. Di chuyển máy quạt về bên Trái
